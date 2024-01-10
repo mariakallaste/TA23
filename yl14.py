@@ -1,5 +1,7 @@
-#Kirjuta programm, mis küsib kasutajalt failinime kujul “failinimi.ext” (ext - extension - faili laiend) ja prindib välja laiendi (“ext”). (str.split)
+#Kirjuta programm, mis küsib kasutajalt failinime kujul “failinimi.ext” 
+#(ext - extension - faili laiend) 
 
-filename = input('name of the file:')
+filename = input('Name of the file (ex. "failinimi.ext"):')
 
-print(filename.split('.')[1])
+#ja prindib välja laiendi (“ext”). (str.split)
+print ("Faili laiendiks on:", filename.split('.')[-1])
